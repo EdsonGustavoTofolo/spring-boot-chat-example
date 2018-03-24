@@ -1,0 +1,852 @@
+2018-03-22 20:44:37,164 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-22 20:44:37,180 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-22 20:44:37,196 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-03-22 20:44:37,164 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-03-22 20:44:37,180 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-03-22 20:44:37,180 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-03-22 20:44:37,227 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-03-22 20:44:37,258 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-22 20:44:37,258 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-03-22 20:44:37,430 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-03-22 20:44:37,446 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2018-03-22 20:44:37,446 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-22 20:44:37,696 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-22 20:44:37,696 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-22 20:44:37,727 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-03-22 20:44:37,727 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-22 20:44:37,977 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-22 20:44:38,039 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-03-22 20:44:38,039 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-03-22 20:44:38,571 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2018-03-22 20:44:38,571 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2018-03-22 20:44:38,586 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.21.Final
+2018-03-22 20:44:38,696 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-03-22 20:44:38,883 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:/MySqlDS]
+2018-03-22 20:44:38,883 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-22 20:44:39,321 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-22 20:44:39,461 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\deployments
+2018-03-22 20:44:39,571 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-03-22 20:44:39,665 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:44:39,665 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:44:39,665 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:44:39,665 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:44:39,665 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:44:39,665 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:44:40,165 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-03-22 20:44:41,587 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-03-22 20:44:43,149 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "chat-0.0.1-SNAPSHOT" (runtime-name: "chat-0.0.1-SNAPSHOT.war")
+2018-03-22 20:44:46,172 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0003: Could not index class module-info.class at /C:/Users/Edson/Documents/Development/Chat/Chat/chat/target/chat-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.10.0.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 24
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:1416)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1450)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-03-22 20:44:49,188 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 20:44:49,204 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 20:44:49,204 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 20:44:49,219 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 20:44:49,219 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HandlerResultAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 20:44:50,438 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 69) 2 Spring WebApplicationInitializers detected on classpath
+2018-03-22 20:44:50,813 INFO  [org.hibernate.validator.internal.util.Version] (background-preinit) HV000001: Hibernate Validator 5.2.4.Final
+2018-03-22 20:44:50,985 INFO  [stdout] (ServerService Thread Pool -- 69) 
+2018-03-22 20:44:50,985 INFO  [stdout] (ServerService Thread Pool -- 69)   .   ____          _            __ _ _
+2018-03-22 20:44:50,985 INFO  [stdout] (ServerService Thread Pool -- 69)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2018-03-22 20:44:50,985 INFO  [stdout] (ServerService Thread Pool -- 69) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2018-03-22 20:44:50,985 INFO  [stdout] (ServerService Thread Pool -- 69)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2018-03-22 20:44:50,985 INFO  [stdout] (ServerService Thread Pool -- 69)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2018-03-22 20:44:50,985 INFO  [stdout] (ServerService Thread Pool -- 69)  =========|_|==============|___/=/_/_/_/
+2018-03-22 20:44:51,001 INFO  [stdout] (ServerService Thread Pool -- 69)  :: Spring Boot ::        (v2.0.0.RELEASE)
+2018-03-22 20:44:51,001 INFO  [stdout] (ServerService Thread Pool -- 69) 
+2018-03-22 20:44:51,126 INFO  [br.com.edsontofolo.webchat.chat.ChatApplication] (ServerService Thread Pool -- 69) Starting ChatApplication on DESKTOP-2V7VPF4 with PID 816 (C:\Users\Edson\Documents\Development\Chat\Chat\chat\target\chat-0.0.1-SNAPSHOT\WEB-INF\classes started by Edson in C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\bin)
+2018-03-22 20:44:51,126 INFO  [br.com.edsontofolo.webchat.chat.ChatApplication] (ServerService Thread Pool -- 69) No active profile set, falling back to default profiles: default
+2018-03-22 20:44:51,157 INFO  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] (ServerService Thread Pool -- 69) Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c9fac55: startup date [Thu Mar 22 20:44:51 BRT 2018]; root of context hierarchy
+2018-03-22 20:44:52,266 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] (ServerService Thread Pool -- 69) Overriding bean definition for bean 'websocketContainerCustomizer' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$UndertowWebSocketConfiguration; factoryMethodName=websocketContainerCustomizer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/websocket/servlet/WebSocketServletAutoConfiguration$UndertowWebSocketConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration; factoryMethodName=websocketContainerCustomizer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/websocket/servlet/WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration.class]]
+2018-03-22 20:44:52,707 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 69) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-22 20:44:52,816 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 69) Initializing Spring embedded WebApplicationContext
+2018-03-22 20:44:52,816 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 69) Root WebApplicationContext: initialization completed in 1659 ms
+2018-03-22 20:44:53,316 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-22 20:44:53,316 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'errorPageFilter' to: [/*]
+2018-03-22 20:44:53,316 INFO  [org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-03-22 20:44:53,316 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean] (ServerService Thread Pool -- 69) Servlet dispatcherServlet mapped to [/]
+2018-03-22 20:44:53,738 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 69) Initializing ExecutorService  'clientInboundChannelExecutor'
+2018-03-22 20:44:53,754 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 69) Initializing ExecutorService  'clientOutboundChannelExecutor'
+2018-03-22 20:44:54,097 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 69) Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b32d83f, org.springframework.security.web.context.SecurityContextPersistenceFilter@76433c0b, org.springframework.security.web.header.HeaderWriterFilter@4b570941, org.springframework.security.web.authentication.logout.LogoutFilter@14cebf85, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4dbc0a41, org.springframework.security.web.session.ConcurrentSessionFilter@390aedad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6156144f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a8fb8dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b3dbd88, org.springframework.security.web.session.SessionManagementFilter@47b41faa, org.springframework.security.web.access.ExceptionTranslationFilter@13a16865, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cccd4da]
+2018-03-22 20:44:54,176 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.home()
+2018-03-22 20:44:54,176 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/chatbot]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.getChatBot()
+2018-03-22 20:44:54,176 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/test]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.testResponse()
+2018-03-22 20:44:54,176 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/web-sock]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.getWebSocket()
+2018-03-22 20:44:54,191 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/msg-forward/chatbot]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageForwardController.getChatBot(org.springframework.ui.ModelMap)
+2018-03-22 20:44:54,191 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/sse/add-event],methods=[GET]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.PushNotificationController.postNotification(java.lang.String)
+2018-03-22 20:44:54,191 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/sse/add-notification]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.PushNotificationController.getNotification()
+2018-03-22 20:44:54,191 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/sse/subscribe]}" onto public org.springframework.web.servlet.mvc.method.annotation.SseEmitter br.com.edsontofolo.webchat.chat.controller.PushNotificationController.subscribeSSE()
+2018-03-22 20:44:54,191 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/sse/get-notification]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.PushNotificationController.pushNotification()
+2018-03-22 20:44:54,191 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-22 20:44:54,191 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-22 20:44:54,238 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 69) Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 20:44:54,238 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 69) Mapped URL path [/resources/static/js/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 20:44:54,238 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 69) Mapped URL path [/resources/static/css/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 20:44:54,254 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 69) Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+2018-03-22 20:44:54,301 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (ServerService Thread Pool -- 69) Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c9fac55: startup date [Thu Mar 22 20:44:51 BRT 2018]; root of context hierarchy
+2018-03-22 20:44:54,472 INFO  [org.springframework.web.socket.server.support.WebSocketHandlerMapping] (ServerService Thread Pool -- 69) Mapped URL path [/web-socket] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2018-03-22 20:44:54,504 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] (ServerService Thread Pool -- 69) Initializing ExecutorService  'messageBrokerTaskScheduler'
+2018-03-22 20:44:54,566 INFO  [org.springframework.web.socket.server.support.WebSocketHandlerMapping] (ServerService Thread Pool -- 69) Mapped URL path [/grp-chat/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2018-03-22 20:44:54,566 INFO  [org.springframework.web.socket.server.support.WebSocketHandlerMapping] (ServerService Thread Pool -- 69) Mapped URL path [/chat/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2018-03-22 20:44:54,582 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 69) Initializing ExecutorService  'brokerChannelExecutor'
+2018-03-22 20:44:54,613 INFO  [org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandler] (ServerService Thread Pool -- 69) Mapped "{[/grp-chat],messageType=[MESSAGE]}" onto public br.com.edsontofolo.webchat.chat.model.OutputMessage br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.send(br.com.edsontofolo.webchat.chat.model.ChatMessage) throws java.lang.Exception
+2018-03-22 20:44:54,613 INFO  [org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandler] (ServerService Thread Pool -- 69) Mapped "{[/chat],messageType=[MESSAGE]}" onto public void br.com.edsontofolo.webchat.chat.controller.MessageForwardController.send(org.springframework.messaging.Message<br.com.edsontofolo.webchat.chat.model.ChatMessage>,br.com.edsontofolo.webchat.chat.model.ChatMessage) throws java.lang.Exception
+2018-03-22 20:44:54,879 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 69) Using JTA UserTransaction: org.jboss.tm.usertx.client.ServerVMClientUserTransaction@131e9d45
+2018-03-22 20:44:54,879 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 69) Using JTA TransactionManager: com.arjuna.ats.jbossatx.jta.TransactionManagerDelegate@195671f9
+2018-03-22 20:44:54,879 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 69) Using JTA TransactionSynchronizationRegistry: org.jboss.as.txn.service.internal.tsr.TransactionSynchronizationRegistryWrapper@31d7c097
+2018-03-22 20:44:55,066 INFO  [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] (ServerService Thread Pool -- 69) 
+
+Using generated security password: 73c49064-e301-4096-a1b9-7620ac761521
+
+2018-03-22 20:44:55,223 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (ServerService Thread Pool -- 69) Registering beans for JMX exposure on startup
+2018-03-22 20:44:55,238 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 69) Starting beans in phase 2147483647
+2018-03-22 20:44:55,238 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 69) Starting...
+2018-03-22 20:44:55,238 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 69) BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2018-03-22 20:44:55,238 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 69) Started.
+2018-03-22 20:44:55,254 INFO  [br.com.edsontofolo.webchat.chat.ChatApplication] (ServerService Thread Pool -- 69) Started ChatApplication in 4.66 seconds (JVM running for 30.817)
+2018-03-22 20:44:55,332 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 69) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para o contexto '/chat-0.0.1-SNAPSHOT'
+2018-03-22 20:44:57,692 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 69) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host."/chat-0.0.1-SNAPSHOT": org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host."/chat-0.0.1-SNAPSHOT": java.lang.RuntimeException: java.lang.ClassCastException: org.apache.tomcat.websocket.server.WsServerContainer cannot be cast to io.undertow.websockets.jsr.ServerWebSocketContainer
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: java.lang.RuntimeException: java.lang.ClassCastException: org.apache.tomcat.websocket.server.WsServerContainer cannot be cast to io.undertow.websockets.jsr.ServerWebSocketContainer
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:236)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:100)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	... 6 more
+Caused by: java.lang.ClassCastException: org.apache.tomcat.websocket.server.WsServerContainer cannot be cast to io.undertow.websockets.jsr.ServerWebSocketContainer
+	at io.undertow.websockets.jsr.Bootstrap$WebSocketListener.contextInitialized(Bootstrap.java:116)
+	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:187)
+	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:200)
+	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:171)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:234)
+	... 8 more
+
+2018-03-22 20:44:57,692 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-22 20:44:57,692 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-22 20:44:57,692 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started (with errors) in 33060ms - Started 837 of 1090 services (2 services failed or missing dependencies, 405 services are lazy, passive or on-demand)
+2018-03-22 20:44:57,692 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "chat-0.0.1-SNAPSHOT")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host.\"/chat-0.0.1-SNAPSHOT\"" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host.\"/chat-0.0.1-SNAPSHOT\": java.lang.RuntimeException: java.lang.ClassCastException: org.apache.tomcat.websocket.server.WsServerContainer cannot be cast to io.undertow.websockets.jsr.ServerWebSocketContainer
+    Caused by: java.lang.RuntimeException: java.lang.ClassCastException: org.apache.tomcat.websocket.server.WsServerContainer cannot be cast to io.undertow.websockets.jsr.ServerWebSocketContainer
+    Caused by: java.lang.ClassCastException: org.apache.tomcat.websocket.server.WsServerContainer cannot be cast to io.undertow.websockets.jsr.ServerWebSocketContainer"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host.\"/chat-0.0.1-SNAPSHOT\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-03-22 20:44:57,707 ERROR [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0021: Deploy of deployment "chat-0.0.1-SNAPSHOT.war" was rolled back with the following failure message: 
+{
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host.\"/chat-0.0.1-SNAPSHOT\"" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host.\"/chat-0.0.1-SNAPSHOT\": java.lang.RuntimeException: java.lang.ClassCastException: org.apache.tomcat.websocket.server.WsServerContainer cannot be cast to io.undertow.websockets.jsr.ServerWebSocketContainer
+    Caused by: java.lang.RuntimeException: java.lang.ClassCastException: org.apache.tomcat.websocket.server.WsServerContainer cannot be cast to io.undertow.websockets.jsr.ServerWebSocketContainer
+    Caused by: java.lang.ClassCastException: org.apache.tomcat.websocket.server.WsServerContainer cannot be cast to io.undertow.websockets.jsr.ServerWebSocketContainer"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host.\"/chat-0.0.1-SNAPSHOT\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-03-22 20:44:58,348 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment chat-0.0.1-SNAPSHOT (runtime-name: chat-0.0.1-SNAPSHOT.war) in 646ms
+2018-03-22 20:44:58,348 INFO  [org.jboss.as.controller] (management-handler-thread - 2) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".component."org.apache.taglibs.standard.tag.el.core.SetTag".START (missing) dependents: [service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".deploymentCompleteService] 
+      service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".component."org.apache.taglibs.standard.tag.el.sql.QueryTag".START (missing) dependents: [service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".deploymentCompleteService] 
+      service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".component."org.apache.taglibs.standard.tag.el.xml.ParseTag".START (missing) dependents: [service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".deploymentCompleteService] 
+      service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".component."org.apache.taglibs.standard.tag.rt.fmt.ParamTag".START (missing) dependents: [service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".deploymentCompleteService] 
+      service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".component."org.apache.taglibs.standard.tag.rt.fmt.ParseNumberTag".START (missing) dependents: [service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".deploymentCompleteService] 
+      service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".component."org.apache.taglibs.standard.tag.rt.fmt.SetTimeZoneTag".START (missing) dependents: [service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".deploymentCompleteService] 
+      service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".component."org.apache.taglibs.standard.tlv.JstlSqlTLV".START (missing) dependents: [service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".deploymentCompleteService] 
+      service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".component."org.springframework.web.servlet.tags.NestedPathTag".START (missing) dependents: [service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".deploymentCompleteService] 
+      service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".component."org.springframework.web.servlet.tags.TransformTag".START (missing) dependents: [service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".deploymentCompleteService] 
+      service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".component."org.springframework.web.servlet.tags.form.FormTag".START (missing) dependents: [service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".deploymentCompleteService] 
+      service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".component."org.springframework.web.servlet.tags.form.InputTag".START (missing) dependents: [service jboss.deployment.unit."chat-0.0.1-SNAPSHOT.war".deploymentCompleteService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host."/chat-0.0.1-SNAPSHOT"
+
+2018-03-22 20:45:54,590 INFO  [org.springframework.web.socket.config.WebSocketMessageBrokerStats] (MessageBroker-1) WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2018-03-22 20:49:47,603 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0236: Suspending server with no timeout.
+2018-03-22 20:49:47,618 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-03-22 20:49:47,618 INFO  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] (Thread-101) Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c9fac55: startup date [Thu Mar 22 20:44:51 BRT 2018]; root of context hierarchy
+2018-03-22 20:49:47,665 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (Thread-101) Stopping beans in phase 2147483647
+2018-03-22 20:49:47,665 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (Thread-101) Stopping...
+2018-03-22 20:49:47,665 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (Thread-101) BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2018-03-22 20:49:47,665 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (Thread-101) Stopped.
+2018-03-22 20:49:47,665 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (Thread-101) Unregistering JMX-exposed beans on shutdown
+2018-03-22 20:49:47,681 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (Thread-101) Shutting down ExecutorService 'brokerChannelExecutor'
+2018-03-22 20:49:47,696 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] (Thread-101) Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2018-03-22 20:49:47,712 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (Thread-101) Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2018-03-22 20:49:47,712 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (Thread-101) Shutting down ExecutorService 'clientInboundChannelExecutor'
+2018-03-22 20:49:47,712 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-03-22 20:49:47,728 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:/MySqlDS]
+2018-03-22 20:49:47,759 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-03-22 20:49:47,759 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-03-22 20:49:47,759 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-03-22 20:49:47,759 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0019: Host default-host stopping
+2018-03-22 20:49:47,759 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-03-22 20:49:47,759 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2018-03-22 20:49:47,759 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-03-22 20:49:47,759 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-03-22 20:49:47,853 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 219ms
+2018-03-22 20:50:48,827 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-03-22 20:50:49,363 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-03-22 20:50:49,472 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-03-22 20:50:49,472 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_121\jre
+	java.io.tmpdir = C:\Users\Edson\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Embarcadero\Studio\18.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\18.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\18.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\18.0\Bpl\Win64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Edson\OneDrive\Documents\Guto\Development\servers\wildfly-10.1.0.Final\bin;C:\Users\Edson\OneDrive\Documents\Guto\Development\servers\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Edson\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final
+	jboss.host.name = desktop-2v7vpf4
+	jboss.modules.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-2v7vpf4
+	jboss.qualified.host.name = desktop-2v7vpf4
+	jboss.server.base.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = desktop-2v7vpf4
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_121\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\jboss-modules.jar -mp C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\bin
+	user.home = C:\Users\Edson
+	user.language = pt
+	user.name = Edson
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2018-03-22 20:50:49,472 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\configuration/logging.properties 
+2018-03-22 20:50:51,910 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-22 20:50:51,925 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.4.0.Final
+2018-03-22 20:50:51,925 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.4.0.Final
+2018-03-22 20:50:52,066 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-03-22 20:50:52,097 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-03-22 20:50:52,144 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-22 20:50:52,160 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-22 20:50:52,191 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-03-22 20:50:52,191 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-22 20:50:52,191 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-03-22 20:50:52,191 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-22 20:50:52,238 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-03-22 20:50:52,253 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-03-22 20:50:52,253 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-03-22 20:50:52,253 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-03-22 20:50:52,285 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-03-22 20:50:52,394 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2018-03-22 20:50:52,457 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-22 20:50:52,472 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-03-22 20:50:52,707 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-22 20:50:52,707 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-22 20:50:52,769 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-22 20:50:53,160 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2018-03-22 20:50:53,160 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2018-03-22 20:50:53,176 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.21.Final
+2018-03-22 20:50:53,269 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-03-22 20:50:53,410 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-22 20:50:53,410 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\deployments
+2018-03-22 20:50:53,879 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-22 20:50:53,894 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:/MySqlDS]
+2018-03-22 20:50:53,941 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-03-22 20:50:54,066 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:50:54,066 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:50:54,082 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:50:54,082 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:50:54,082 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:50:54,082 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 20:50:54,472 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-03-22 20:50:54,816 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-03-22 20:50:56,196 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-22 20:50:56,200 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-22 20:50:56,200 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 7932ms - Started 338 of 584 services (394 services are lazy, passive or on-demand)
+2018-03-22 20:50:56,855 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "chat-0.0.1-SNAPSHOT" (runtime-name: "chat-0.0.1-SNAPSHOT.war")
+2018-03-22 20:50:59,490 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0003: Could not index class module-info.class at /C:/Users/Edson/Documents/Development/Chat/Chat/chat/target/chat-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.10.0.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 24
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:1416)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1450)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-03-22 20:51:01,896 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 20:51:01,912 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 20:51:01,912 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 20:51:01,928 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 20:51:01,928 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HandlerResultAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 20:51:02,381 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 20) 2 Spring WebApplicationInitializers detected on classpath
+2018-03-22 20:51:02,787 INFO  [org.hibernate.validator.internal.util.Version] (background-preinit) HV000001: Hibernate Validator 5.2.4.Final
+2018-03-22 20:51:02,865 INFO  [stdout] (ServerService Thread Pool -- 20) 
+2018-03-22 20:51:02,865 INFO  [stdout] (ServerService Thread Pool -- 20)   .   ____          _            __ _ _
+2018-03-22 20:51:02,865 INFO  [stdout] (ServerService Thread Pool -- 20)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2018-03-22 20:51:02,865 INFO  [stdout] (ServerService Thread Pool -- 20) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2018-03-22 20:51:02,865 INFO  [stdout] (ServerService Thread Pool -- 20)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2018-03-22 20:51:02,865 INFO  [stdout] (ServerService Thread Pool -- 20)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2018-03-22 20:51:02,865 INFO  [stdout] (ServerService Thread Pool -- 20)  =========|_|==============|___/=/_/_/_/
+2018-03-22 20:51:02,865 INFO  [stdout] (ServerService Thread Pool -- 20)  :: Spring Boot ::        (v2.0.0.RELEASE)
+2018-03-22 20:51:02,865 INFO  [stdout] (ServerService Thread Pool -- 20) 
+2018-03-22 20:51:02,959 INFO  [br.com.edsontofolo.webchat.chat.ChatApplication] (ServerService Thread Pool -- 20) Starting ChatApplication on DESKTOP-2V7VPF4 with PID 8800 (C:\Users\Edson\Documents\Development\Chat\Chat\chat\target\chat-0.0.1-SNAPSHOT\WEB-INF\classes started by Edson in C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\bin)
+2018-03-22 20:51:02,975 INFO  [br.com.edsontofolo.webchat.chat.ChatApplication] (ServerService Thread Pool -- 20) No active profile set, falling back to default profiles: default
+2018-03-22 20:51:03,006 INFO  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] (ServerService Thread Pool -- 20) Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@31d4c9df: startup date [Thu Mar 22 20:51:03 BRT 2018]; root of context hierarchy
+2018-03-22 20:51:04,131 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 20) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-22 20:51:04,225 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 20) Initializing Spring embedded WebApplicationContext
+2018-03-22 20:51:04,225 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 20) Root WebApplicationContext: initialization completed in 1219 ms
+2018-03-22 20:51:04,756 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 20) Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-22 20:51:04,756 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 20) Mapping filter: 'errorPageFilter' to: [/*]
+2018-03-22 20:51:04,756 INFO  [org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean] (ServerService Thread Pool -- 20) Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-03-22 20:51:04,756 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean] (ServerService Thread Pool -- 20) Servlet dispatcherServlet mapped to [/]
+2018-03-22 20:51:05,303 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 20) Initializing ExecutorService  'clientInboundChannelExecutor'
+2018-03-22 20:51:05,319 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 20) Initializing ExecutorService  'clientOutboundChannelExecutor'
+2018-03-22 20:51:05,694 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 20) Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5acc43b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f8bd958, org.springframework.security.web.header.HeaderWriterFilter@371fadb, org.springframework.security.web.authentication.logout.LogoutFilter@4320f07c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6bb43d34, org.springframework.security.web.session.ConcurrentSessionFilter@72bba6fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75098835, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@538b1823, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10030269, org.springframework.security.web.session.SessionManagementFilter@6eea1914, org.springframework.security.web.access.ExceptionTranslationFilter@7ee3b637, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7088c953]
+2018-03-22 20:51:05,803 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 20) Mapped "{[/]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.home()
+2018-03-22 20:51:05,803 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 20) Mapped "{[/chatbot]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.getChatBot()
+2018-03-22 20:51:05,803 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 20) Mapped "{[/web-sock]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.getWebSocket()
+2018-03-22 20:51:05,803 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 20) Mapped "{[/test]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.testResponse()
+2018-03-22 20:51:05,803 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 20) Mapped "{[/msg-forward/chatbot]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageForwardController.getChatBot(org.springframework.ui.ModelMap)
+2018-03-22 20:51:05,803 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 20) Mapped "{[/sse/add-event],methods=[GET]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.PushNotificationController.postNotification(java.lang.String)
+2018-03-22 20:51:05,803 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 20) Mapped "{[/sse/get-notification]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.PushNotificationController.pushNotification()
+2018-03-22 20:51:05,803 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 20) Mapped "{[/sse/add-notification]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.PushNotificationController.getNotification()
+2018-03-22 20:51:05,803 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 20) Mapped "{[/sse/subscribe]}" onto public org.springframework.web.servlet.mvc.method.annotation.SseEmitter br.com.edsontofolo.webchat.chat.controller.PushNotificationController.subscribeSSE()
+2018-03-22 20:51:05,819 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 20) Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-22 20:51:05,819 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 20) Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-22 20:51:05,881 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 20) Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 20:51:05,881 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 20) Mapped URL path [/resources/static/js/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 20:51:05,881 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 20) Mapped URL path [/resources/static/css/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 20:51:05,913 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 20) Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+2018-03-22 20:51:05,975 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (ServerService Thread Pool -- 20) Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@31d4c9df: startup date [Thu Mar 22 20:51:03 BRT 2018]; root of context hierarchy
+2018-03-22 20:51:06,100 INFO  [org.springframework.web.socket.server.support.WebSocketHandlerMapping] (ServerService Thread Pool -- 20) Mapped URL path [/web-socket] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2018-03-22 20:51:06,131 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] (ServerService Thread Pool -- 20) Initializing ExecutorService  'messageBrokerTaskScheduler'
+2018-03-22 20:51:06,178 INFO  [org.springframework.web.socket.server.support.WebSocketHandlerMapping] (ServerService Thread Pool -- 20) Mapped URL path [/grp-chat/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2018-03-22 20:51:06,178 INFO  [org.springframework.web.socket.server.support.WebSocketHandlerMapping] (ServerService Thread Pool -- 20) Mapped URL path [/chat/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2018-03-22 20:51:06,194 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 20) Initializing ExecutorService  'brokerChannelExecutor'
+2018-03-22 20:51:06,241 INFO  [org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandler] (ServerService Thread Pool -- 20) Mapped "{[/grp-chat],messageType=[MESSAGE]}" onto public br.com.edsontofolo.webchat.chat.model.OutputMessage br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.send(br.com.edsontofolo.webchat.chat.model.ChatMessage) throws java.lang.Exception
+2018-03-22 20:51:06,241 INFO  [org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandler] (ServerService Thread Pool -- 20) Mapped "{[/chat],messageType=[MESSAGE]}" onto public void br.com.edsontofolo.webchat.chat.controller.MessageForwardController.send(org.springframework.messaging.Message<br.com.edsontofolo.webchat.chat.model.ChatMessage>,br.com.edsontofolo.webchat.chat.model.ChatMessage) throws java.lang.Exception
+2018-03-22 20:51:06,710 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 20) Using JTA UserTransaction: org.jboss.tm.usertx.client.ServerVMClientUserTransaction@1b690274
+2018-03-22 20:51:06,710 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 20) Using JTA TransactionManager: com.arjuna.ats.jbossatx.jta.TransactionManagerDelegate@56cf1133
+2018-03-22 20:51:06,710 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 20) Using JTA TransactionSynchronizationRegistry: org.jboss.as.txn.service.internal.tsr.TransactionSynchronizationRegistryWrapper@657c03bf
+2018-03-22 20:51:06,960 INFO  [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] (ServerService Thread Pool -- 20) 
+
+Using generated security password: 14c9d29d-d442-4f21-b670-48beaef1746a
+
+2018-03-22 20:51:07,131 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (ServerService Thread Pool -- 20) Registering beans for JMX exposure on startup
+2018-03-22 20:51:07,147 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 20) Starting beans in phase 2147483647
+2018-03-22 20:51:07,147 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 20) Starting...
+2018-03-22 20:51:07,147 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 20) BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2018-03-22 20:51:07,147 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 20) Started.
+2018-03-22 20:51:07,178 INFO  [br.com.edsontofolo.webchat.chat.ChatApplication] (ServerService Thread Pool -- 20) Started ChatApplication in 4.656 seconds (JVM running for 19.058)
+2018-03-22 20:51:07,335 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 20) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para o contexto '/chat-0.0.1-SNAPSHOT'
+2018-03-22 20:51:10,054 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 20) WFLYUT0021: Registered web context: /chat-0.0.1-SNAPSHOT
+2018-03-22 20:51:11,147 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "chat-0.0.1-SNAPSHOT" (runtime-name : "chat-0.0.1-SNAPSHOT.war")
+2018-03-22 20:51:11,310 INFO  [io.undertow.servlet] (default task-1) Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-22 20:51:11,310 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-22 20:51:11,341 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2018-03-22 20:52:06,195 INFO  [org.springframework.web.socket.config.WebSocketMessageBrokerStats] (MessageBroker-4) WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 15], outboundChannelpool size = 3, active threads = 0, queued tasks = 0, completed tasks = 3], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 4]
+2018-03-22 20:53:38,546 ERROR [org.springframework.boot.web.servlet.support.ErrorPageFilter] (default task-49) Forwarding to error page from request [/process_login] due to exception [There is no PasswordEncoder mapped for the id "null"]: java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id "null"
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder$UnmappedIdPasswordEncoder.matches(DelegatingPasswordEncoder.java:238)
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder.matches(DelegatingPasswordEncoder.java:198)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$LazyPasswordEncoder.matches(AuthenticationConfiguration.java:289)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:86)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:166)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:115)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:59)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:108)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-03-22 20:55:53,089 ERROR [org.springframework.boot.web.servlet.support.ErrorPageFilter] (default task-56) Forwarding to error page from request [/process_login] due to exception [There is no PasswordEncoder mapped for the id "null"]: java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id "null"
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder$UnmappedIdPasswordEncoder.matches(DelegatingPasswordEncoder.java:238)
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder.matches(DelegatingPasswordEncoder.java:198)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$LazyPasswordEncoder.matches(AuthenticationConfiguration.java:289)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:86)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:166)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:115)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:59)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:108)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-03-22 21:01:29,488 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 92) WFLYUT0022: Unregistered web context: /chat-0.0.1-SNAPSHOT
+2018-03-22 21:01:29,488 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 92) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-03-22 21:01:29,504 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 92) Closing Spring root WebApplicationContext
+2018-03-22 21:01:29,504 INFO  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] (ServerService Thread Pool -- 92) Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@31d4c9df: startup date [Thu Mar 22 20:51:03 BRT 2018]; root of context hierarchy
+2018-03-22 21:01:29,504 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 92) Stopping beans in phase 2147483647
+2018-03-22 21:01:29,504 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 92) Stopping...
+2018-03-22 21:01:29,504 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 92) BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2018-03-22 21:01:29,504 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 92) Stopped.
+2018-03-22 21:01:29,504 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (ServerService Thread Pool -- 92) Unregistering JMX-exposed beans on shutdown
+2018-03-22 21:01:29,504 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 92) Shutting down ExecutorService 'brokerChannelExecutor'
+2018-03-22 21:01:29,504 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] (ServerService Thread Pool -- 92) Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2018-03-22 21:01:29,504 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 92) Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2018-03-22 21:01:29,504 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 92) Shutting down ExecutorService 'clientInboundChannelExecutor'
+2018-03-22 21:01:30,110 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment chat-0.0.1-SNAPSHOT (runtime-name: chat-0.0.1-SNAPSHOT.war) in 627ms
+2018-03-22 21:01:30,688 WARN  [org.jboss.as.controller] (management-handler-thread - 7) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-03-22 21:01:30,688 INFO  [org.jboss.as.server] (management-handler-thread - 7) WFLYSRV0009: Undeployed "chat-0.0.1-SNAPSHOT" (runtime-name: "chat-0.0.1-SNAPSHOT.war")
+2018-03-22 21:01:30,766 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0236: Suspending server with no timeout.
+2018-03-22 21:01:30,782 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-03-22 21:01:30,813 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-03-22 21:01:30,813 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:/MySqlDS]
+2018-03-22 21:01:30,813 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-03-22 21:01:30,828 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-03-22 21:01:30,828 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2018-03-22 21:01:30,828 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-03-22 21:01:30,828 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2018-03-22 21:01:30,828 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-03-22 21:01:30,828 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-03-22 21:01:30,844 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-03-22 21:01:30,938 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 142ms
+2018-03-22 21:01:40,228 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-03-22 21:01:40,760 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-03-22 21:01:40,838 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-03-22 21:01:40,838 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_121\jre
+	java.io.tmpdir = C:\Users\Edson\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Embarcadero\Studio\18.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\18.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\18.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\18.0\Bpl\Win64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Edson\OneDrive\Documents\Guto\Development\servers\wildfly-10.1.0.Final\bin;C:\Users\Edson\OneDrive\Documents\Guto\Development\servers\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Edson\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final
+	jboss.host.name = desktop-2v7vpf4
+	jboss.modules.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-2v7vpf4
+	jboss.qualified.host.name = desktop-2v7vpf4
+	jboss.server.base.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = desktop-2v7vpf4
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_121\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\jboss-modules.jar -mp C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\bin
+	user.home = C:\Users\Edson
+	user.language = pt
+	user.name = Edson
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2018-03-22 21:01:40,838 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\configuration/logging.properties 
+2018-03-22 21:01:42,697 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-22 21:01:42,728 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.4.0.Final
+2018-03-22 21:01:42,728 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.4.0.Final
+2018-03-22 21:01:42,791 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-03-22 21:01:42,807 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-22 21:01:42,979 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-03-22 21:01:43,041 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-03-22 21:01:43,041 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-03-22 21:01:43,072 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-03-22 21:01:43,072 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-03-22 21:01:43,135 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-03-22 21:01:43,135 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-03-22 21:01:43,135 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-03-22 21:01:43,150 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-03-22 21:01:43,150 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-03-22 21:01:43,182 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-03-22 21:01:43,182 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-03-22 21:01:43,229 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-03-22 21:01:43,338 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2018-03-22 21:01:43,338 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-03-22 21:01:43,369 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-03-22 21:01:43,479 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-22 21:01:43,869 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.21.Final
+2018-03-22 21:01:43,869 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2018-03-22 21:01:43,885 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2018-03-22 21:01:43,994 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-03-22 21:01:44,166 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-03-22 21:01:44,213 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\standalone\deployments
+2018-03-22 21:01:44,494 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-22 21:01:44,494 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/MySqlDS]
+2018-03-22 21:01:44,572 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-03-22 21:01:44,697 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 21:01:44,697 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 21:01:44,697 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 21:01:44,713 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 21:01:44,713 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 21:01:44,713 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-03-22 21:01:45,088 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-03-22 21:01:45,369 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-03-22 21:01:46,119 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-22 21:01:46,119 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-03-22 21:01:46,119 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 6344ms - Started 338 of 584 services (394 services are lazy, passive or on-demand)
+2018-03-22 21:01:46,432 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "chat-0.0.1-SNAPSHOT" (runtime-name: "chat-0.0.1-SNAPSHOT.war")
+2018-03-22 21:01:49,523 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0003: Could not index class module-info.class at /C:/Users/Edson/Documents/Development/Chat/Chat/chat/target/chat-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.10.0.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 24
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:1416)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1450)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-03-22 21:01:51,305 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 21:01:51,320 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 21:01:51,320 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 21:01:51,336 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 21:01:51,336 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HandlerResultAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2018-03-22 21:01:51,758 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 28) 2 Spring WebApplicationInitializers detected on classpath
+2018-03-22 21:01:52,125 INFO  [org.hibernate.validator.internal.util.Version] (background-preinit) HV000001: Hibernate Validator 5.2.4.Final
+2018-03-22 21:01:52,266 INFO  [stdout] (ServerService Thread Pool -- 28) 
+2018-03-22 21:01:52,266 INFO  [stdout] (ServerService Thread Pool -- 28)   .   ____          _            __ _ _
+2018-03-22 21:01:52,266 INFO  [stdout] (ServerService Thread Pool -- 28)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2018-03-22 21:01:52,266 INFO  [stdout] (ServerService Thread Pool -- 28) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2018-03-22 21:01:52,266 INFO  [stdout] (ServerService Thread Pool -- 28)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2018-03-22 21:01:52,266 INFO  [stdout] (ServerService Thread Pool -- 28)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2018-03-22 21:01:52,266 INFO  [stdout] (ServerService Thread Pool -- 28)  =========|_|==============|___/=/_/_/_/
+2018-03-22 21:01:52,266 INFO  [stdout] (ServerService Thread Pool -- 28)  :: Spring Boot ::        (v2.0.0.RELEASE)
+2018-03-22 21:01:52,266 INFO  [stdout] (ServerService Thread Pool -- 28) 
+2018-03-22 21:01:52,360 INFO  [br.com.edsontofolo.webchat.chat.ChatApplication] (ServerService Thread Pool -- 28) Starting ChatApplication on DESKTOP-2V7VPF4 with PID 10156 (C:\Users\Edson\Documents\Development\Chat\Chat\chat\target\chat-0.0.1-SNAPSHOT\WEB-INF\classes started by Edson in C:\Users\Edson\Documents\Development\Chat\Chat\wildfly-10.1.0.Final\bin)
+2018-03-22 21:01:52,360 INFO  [br.com.edsontofolo.webchat.chat.ChatApplication] (ServerService Thread Pool -- 28) No active profile set, falling back to default profiles: default
+2018-03-22 21:01:52,391 INFO  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] (ServerService Thread Pool -- 28) Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@98320ea: startup date [Thu Mar 22 21:01:52 BRT 2018]; root of context hierarchy
+2018-03-22 21:01:53,311 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 28) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-22 21:01:53,390 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 28) Initializing Spring embedded WebApplicationContext
+2018-03-22 21:01:53,390 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 28) Root WebApplicationContext: initialization completed in 999 ms
+2018-03-22 21:01:53,827 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 28) Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-22 21:01:53,827 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 28) Mapping filter: 'errorPageFilter' to: [/*]
+2018-03-22 21:01:53,827 INFO  [org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean] (ServerService Thread Pool -- 28) Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-03-22 21:01:53,827 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean] (ServerService Thread Pool -- 28) Servlet dispatcherServlet mapped to [/]
+2018-03-22 21:01:54,218 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 28) Initializing ExecutorService  'clientInboundChannelExecutor'
+2018-03-22 21:01:54,249 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 28) Initializing ExecutorService  'clientOutboundChannelExecutor'
+2018-03-22 21:01:54,499 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 28) Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a348a80, org.springframework.security.web.context.SecurityContextPersistenceFilter@30b420de, org.springframework.security.web.header.HeaderWriterFilter@1d94c04e, org.springframework.security.web.authentication.logout.LogoutFilter@5de8a5db, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7dd57b11, org.springframework.security.web.session.ConcurrentSessionFilter@7d23331d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12218222, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22da6251, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bcc370, org.springframework.security.web.session.SessionManagementFilter@731daf55, org.springframework.security.web.access.ExceptionTranslationFilter@2dfb43b0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64129e99]
+2018-03-22 21:01:54,593 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 28) Mapped "{[/]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.home()
+2018-03-22 21:01:54,593 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 28) Mapped "{[/chatbot]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.getChatBot()
+2018-03-22 21:01:54,593 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 28) Mapped "{[/web-sock]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.getWebSocket()
+2018-03-22 21:01:54,593 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 28) Mapped "{[/test]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.testResponse()
+2018-03-22 21:01:54,593 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 28) Mapped "{[/msg-forward/chatbot]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.MessageForwardController.getChatBot(org.springframework.ui.ModelMap)
+2018-03-22 21:01:54,593 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 28) Mapped "{[/sse/add-notification]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.PushNotificationController.getNotification()
+2018-03-22 21:01:54,593 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 28) Mapped "{[/sse/subscribe]}" onto public org.springframework.web.servlet.mvc.method.annotation.SseEmitter br.com.edsontofolo.webchat.chat.controller.PushNotificationController.subscribeSSE()
+2018-03-22 21:01:54,593 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 28) Mapped "{[/sse/add-event],methods=[GET]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.PushNotificationController.postNotification(java.lang.String)
+2018-03-22 21:01:54,593 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 28) Mapped "{[/sse/get-notification]}" onto public java.lang.String br.com.edsontofolo.webchat.chat.controller.PushNotificationController.pushNotification()
+2018-03-22 21:01:54,608 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 28) Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-22 21:01:54,608 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 28) Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-22 21:01:54,640 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 28) Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 21:01:54,640 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 28) Mapped URL path [/resources/static/js/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 21:01:54,640 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 28) Mapped URL path [/resources/static/css/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-22 21:01:54,655 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 28) Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+2018-03-22 21:01:54,702 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (ServerService Thread Pool -- 28) Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@98320ea: startup date [Thu Mar 22 21:01:52 BRT 2018]; root of context hierarchy
+2018-03-22 21:01:54,843 INFO  [org.springframework.web.socket.server.support.WebSocketHandlerMapping] (ServerService Thread Pool -- 28) Mapped URL path [/web-socket] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2018-03-22 21:01:54,874 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] (ServerService Thread Pool -- 28) Initializing ExecutorService  'messageBrokerTaskScheduler'
+2018-03-22 21:01:54,905 INFO  [org.springframework.web.socket.server.support.WebSocketHandlerMapping] (ServerService Thread Pool -- 28) Mapped URL path [/grp-chat/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2018-03-22 21:01:54,905 INFO  [org.springframework.web.socket.server.support.WebSocketHandlerMapping] (ServerService Thread Pool -- 28) Mapped URL path [/chat/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2018-03-22 21:01:54,921 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 28) Initializing ExecutorService  'brokerChannelExecutor'
+2018-03-22 21:01:54,968 INFO  [org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandler] (ServerService Thread Pool -- 28) Mapped "{[/grp-chat],messageType=[MESSAGE]}" onto public br.com.edsontofolo.webchat.chat.model.OutputMessage br.com.edsontofolo.webchat.chat.controller.MessageBroadcastController.send(br.com.edsontofolo.webchat.chat.model.ChatMessage) throws java.lang.Exception
+2018-03-22 21:01:54,968 INFO  [org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandler] (ServerService Thread Pool -- 28) Mapped "{[/chat],messageType=[MESSAGE]}" onto public void br.com.edsontofolo.webchat.chat.controller.MessageForwardController.send(org.springframework.messaging.Message<br.com.edsontofolo.webchat.chat.model.ChatMessage>,br.com.edsontofolo.webchat.chat.model.ChatMessage) throws java.lang.Exception
+2018-03-22 21:01:55,108 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 28) Using JTA UserTransaction: org.jboss.tm.usertx.client.ServerVMClientUserTransaction@68b17003
+2018-03-22 21:01:55,108 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 28) Using JTA TransactionManager: com.arjuna.ats.jbossatx.jta.TransactionManagerDelegate@acfac34
+2018-03-22 21:01:55,108 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 28) Using JTA TransactionSynchronizationRegistry: org.jboss.as.txn.service.internal.tsr.TransactionSynchronizationRegistryWrapper@194919be
+2018-03-22 21:01:55,359 INFO  [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] (ServerService Thread Pool -- 28) 
+
+Using generated security password: 6ae6118d-dc7b-4554-add8-9dea3193bf34
+
+2018-03-22 21:01:55,468 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (ServerService Thread Pool -- 28) Registering beans for JMX exposure on startup
+2018-03-22 21:01:55,468 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 28) Starting beans in phase 2147483647
+2018-03-22 21:01:55,468 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 28) Starting...
+2018-03-22 21:01:55,468 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 28) BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2018-03-22 21:01:55,484 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 28) Started.
+2018-03-22 21:01:55,499 INFO  [br.com.edsontofolo.webchat.chat.ChatApplication] (ServerService Thread Pool -- 28) Started ChatApplication in 3.601 seconds (JVM running for 15.816)
+2018-03-22 21:01:55,577 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 28) Inicializando Mojarra 2.2.13.SP1 20160303-1204 para o contexto '/chat-0.0.1-SNAPSHOT'
+2018-03-22 21:01:57,906 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 28) WFLYUT0021: Registered web context: /chat-0.0.1-SNAPSHOT
+2018-03-22 21:01:57,968 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "chat-0.0.1-SNAPSHOT" (runtime-name : "chat-0.0.1-SNAPSHOT.war")
+2018-03-22 21:01:58,296 INFO  [io.undertow.servlet] (default task-1) Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-22 21:01:58,296 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-22 21:01:58,312 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-03-22 21:02:54,919 INFO  [org.springframework.web.socket.config.WebSocketMessageBrokerStats] (MessageBroker-3) WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 18], outboundChannelpool size = 3, active threads = 0, queued tasks = 0, completed tasks = 3], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 6]
+2018-03-22 21:08:15,878 ERROR [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] (default task-40) Async timeout for GET [/chat-0.0.1-SNAPSHOT/sse/subscribe]
+2018-03-22 21:08:15,878 INFO  [stdout] (default task-40) SseEmitter.onCompletion called.
+2018-03-22 21:10:46,724 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0022: Unregistered web context: /chat-0.0.1-SNAPSHOT
+2018-03-22 21:10:46,724 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 71) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-03-22 21:10:46,724 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 71) Closing Spring root WebApplicationContext
+2018-03-22 21:10:46,724 INFO  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] (ServerService Thread Pool -- 71) Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@98320ea: startup date [Thu Mar 22 21:01:52 BRT 2018]; root of context hierarchy
+2018-03-22 21:10:46,724 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 71) Stopping beans in phase 2147483647
+2018-03-22 21:10:46,724 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 71) Stopping...
+2018-03-22 21:10:46,724 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 71) BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2018-03-22 21:10:46,724 INFO  [org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler] (ServerService Thread Pool -- 71) Stopped.
+2018-03-22 21:10:46,724 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (ServerService Thread Pool -- 71) Unregistering JMX-exposed beans on shutdown
+2018-03-22 21:10:46,739 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 71) Shutting down ExecutorService 'brokerChannelExecutor'
+2018-03-22 21:10:46,739 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] (ServerService Thread Pool -- 71) Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2018-03-22 21:10:46,739 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 71) Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2018-03-22 21:10:46,739 INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] (ServerService Thread Pool -- 71) Shutting down ExecutorService 'clientInboundChannelExecutor'
+2018-03-22 21:10:47,364 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment chat-0.0.1-SNAPSHOT (runtime-name: chat-0.0.1-SNAPSHOT.war) in 661ms
+2018-03-22 21:10:47,427 WARN  [org.jboss.as.controller] (management-handler-thread - 7) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-03-22 21:10:47,427 INFO  [org.jboss.as.server] (management-handler-thread - 7) WFLYSRV0009: Undeployed "chat-0.0.1-SNAPSHOT" (runtime-name: "chat-0.0.1-SNAPSHOT.war")
+2018-03-22 21:10:47,505 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0236: Suspending server with no timeout.
+2018-03-22 21:10:47,505 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-03-22 21:10:47,536 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-03-22 21:10:47,536 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:/MySqlDS]
+2018-03-22 21:10:47,552 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-03-22 21:10:47,552 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-03-22 21:10:47,552 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2018-03-22 21:10:47,583 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-03-22 21:10:47,583 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-03-22 21:10:47,583 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2018-03-22 21:10:47,583 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-03-22 21:10:47,599 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-03-22 21:10:47,614 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 79ms

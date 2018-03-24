@@ -1,0 +1,10 @@
+2017-11-26 18:43:10,532 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0236: Suspending server with no timeout.
+2017-11-26 18:43:10,602 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2017-11-26 18:43:10,613 INFO  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] (Thread-131) Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3faadc9f: startup date [Sat Nov 25 16:18:02 BRST 2017]; root of context hierarchy
+2017-11-26 18:43:10,743 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:/MySqlDS]
+2017-11-26 18:43:10,750 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 104) WFLYUT0022: Unregistered web context: /ProjetoJSP
+2017-11-26 18:43:10,827 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (Thread-131) Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-26 18:43:10,852 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 104) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-11-26 18:43:10,866 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 104) Closing Spring root WebApplicationContext
+2017-11-26 18:43:10,869 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2017-11-26 18:43:10,873 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (Thread-131) Unregistering JMX-exposed beans on shutdown

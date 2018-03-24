@@ -1,0 +1,22 @@
+2017-10-27 21:06:14,496 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 564) WFLYUT0022: Unregistered web context: /ProjetoJSP
+2017-10-27 21:06:14,516 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 564) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-10-27 21:06:14,520 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 564) Closing Spring root WebApplicationContext
+2017-10-27 21:06:14,520 INFO  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] (ServerService Thread Pool -- 564) Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4cfd8888: startup date [Thu Oct 26 20:06:46 BRST 2017]; root of context hierarchy
+2017-10-27 21:06:14,552 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (ServerService Thread Pool -- 564) Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-27 21:06:14,556 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (ServerService Thread Pool -- 564) Unregistering JMX-exposed beans on shutdown
+2017-10-27 21:06:15,134 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ProjetoJSP (runtime-name: ProjetoJSP.war) in 646ms
+2017-10-27 21:06:15,631 WARN  [org.jboss.as.controller] (management-handler-thread - 23) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-10-27 21:06:15,631 INFO  [org.jboss.as.server] (management-handler-thread - 23) WFLYSRV0009: Undeployed "ProjetoJSP" (runtime-name: "ProjetoJSP.war")
+2017-10-27 21:06:15,719 INFO  [org.jboss.as.server] (management-handler-thread - 22) WFLYSRV0236: Suspending server with no timeout.
+2017-10-27 21:06:15,723 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2017-10-27 21:06:15,759 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:/MySqlDS]
+2017-10-27 21:06:15,759 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-10-27 21:06:15,767 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2017-10-27 21:06:15,767 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2017-10-27 21:06:15,771 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2017-10-27 21:06:15,791 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-10-27 21:06:15,791 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2017-10-27 21:06:15,791 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-10-27 21:06:15,795 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-10-27 21:06:15,803 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2017-10-27 21:06:15,819 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 78ms
